@@ -33,6 +33,7 @@ public class PlayerStateManager : MonoBehaviour
     internal Rigidbody2D rb;
     public Animator animator;
 
+    private Dialogue dialogue;
     [Header ("UI")]
     public StaminaBar staminaBar;
 
@@ -47,6 +48,8 @@ public class PlayerStateManager : MonoBehaviour
         currentState = idleState;
         currentState.EnterState(this);
         gameOverScreen.SetActive(false);
+        
+       
 
         staminaBar.SetMaxStamina(moveState.maxStamina);
     }
@@ -59,6 +62,8 @@ public class PlayerStateManager : MonoBehaviour
         {  
            moveState.currentStamina = -1;
         }
+
+        
         currentState.UpdateState(this);
         if(currentState != deathState)
         {

@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 5a3884d46f5b8154d928ca741e2a72e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2897740350978422425
+    second: window_broken-Sheet_0
+  - first:
+      213: 860580651012093826
+    second: window_broken-Sheet_1
+  - first:
+      213: 4214644524256407749
+    second: window_broken-Sheet_2
+  - first:
+      213: 6112124630198670702
+    second: window_broken-Sheet_3
+  - first:
+      213: -2041421445298893002
+    second: window_broken-Sheet_4
+  - first:
+      213: 1793574679729126055
+    second: window_broken-Sheet_5
+  - first:
+      213: -1936217810751092959
+    second: window_broken-Sheet_6
+  - first:
+      213: 7315759623854489986
+    second: window_broken-Sheet_7
+  - first:
+      213: -8335679122589551088
+    second: window_broken-Sheet_8
+  - first:
+      213: 7345553701653594733
+    second: window_broken-Sheet_9
+  - first:
+      213: 6985765408998256030
+    second: window_broken-Sheet_10
+  - first:
+      213: -2062261832977430376
+    second: window_broken-Sheet_11
+  - first:
+      213: -8734897555874523103
+    second: window_broken-Sheet_12
+  - first:
+      213: 6229053890753456101
+    second: window_broken-Sheet_13
+  - first:
+      213: -5617373468546438092
+    second: window_broken-Sheet_14
+  - first:
+      213: -5481974053575596568
+    second: window_broken-Sheet_15
+  - first:
+      213: 8445361614714617363
+    second: window_broken-Sheet_16
+  - first:
+      213: 5835437528611167784
+    second: window_broken-Sheet_17
+  - first:
+      213: -6789538264894917224
+    second: window_broken-Sheet_18
+  - first:
+      213: 4893099940777365353
+    second: window_broken-Sheet_19
+  - first:
+      213: 3040560541594650961
+    second: window_broken-Sheet_20
+  - first:
+      213: -1908478413966120989
+    second: window_broken-Sheet_21
+  - first:
+      213: -5951193218641492163
+    second: window_broken-Sheet_22
+  - first:
+      213: -2913427340848668448
+    second: window_broken-Sheet_23
+  - first:
+      213: -5263484340358881030
+    second: window_broken-Sheet_24
+  - first:
+      213: -7660757680666125140
+    second: window_broken-Sheet_25
+  - first:
+      213: -3924238278437492018
+    second: window_broken-Sheet_26
+  - first:
+      213: 2185495770909536040
+    second: window_broken-Sheet_27
+  - first:
+      213: -3339878958535706266
+    second: window_broken-Sheet_28
+  - first:
+      213: -2164885851549776314
+    second: window_broken-Sheet_29
+  - first:
+      213: 2520798516838939047
+    second: window_broken-Sheet_30
+  - first:
+      213: 1272419837966237196
+    second: window_broken-Sheet_31
+  - first:
+      213: -2241328133341211553
+    second: window_broken-Sheet_32
+  - first:
+      213: -8994128722702538423
+    second: window_broken-Sheet_33
+  - first:
+      213: 637690827498907410
+    second: window_broken-Sheet_34
+  - first:
+      213: 8147126514180238948
+    second: window_broken-Sheet_35
+  - first:
+      213: -325550651104124019
+    second: window_broken-Sheet_36
+  - first:
+      213: -3519240130886234978
+    second: window_broken-Sheet_37
+  - first:
+      213: -6632906748112770669
+    second: window_broken-Sheet_38
+  - first:
+      213: 2109632683436004641
+    second: window_broken-Sheet_39
+  - first:
+      213: 2246642049653921570
+    second: window_broken-Sheet_40
+  - first:
+      213: -3530053588233372035
+    second: window_broken-Sheet_41
+  - first:
+      213: 778587815725976933
+    second: window_broken-Sheet_42
+  - first:
+      213: -7489050557166183833
+    second: window_broken-Sheet_43
+  - first:
+      213: -9077321378326668930
+    second: window_broken-Sheet_44
+  - first:
+      213: 1120393545178995112
+    second: window_broken-Sheet_45
+  - first:
+      213: -2142659608786561973
+    second: window_broken-Sheet_46
+  - first:
+      213: 8218034471216837249
+    second: window_broken-Sheet_47
+  - first:
+      213: 1242695247563769646
+    second: window_broken-Sheet_48
+  - first:
+      213: 2353796529446073343
+    second: window_broken-Sheet_49
+  - first:
+      213: -3869235910814353141
+    second: window_broken-Sheet_50
+  - first:
+      213: -6689392583402895779
+    second: window_broken-Sheet_51
+  - first:
+      213: -2930807125746139744
+    second: window_broken-Sheet_52
+  - first:
+      213: 7409380986322291849
+    second: window_broken-Sheet_53
+  - first:
+      213: 4568417209526572090
+    second: window_broken-Sheet_54
+  - first:
+      213: 6954581013996176205
+    second: window_broken-Sheet_55
+  - first:
+      213: -3506758513714752313
+    second: window_broken-Sheet_56
+  - first:
+      213: -4102672495054564674
+    second: window_broken-Sheet_57
+  - first:
+      213: 185637689211464646
+    second: window_broken-Sheet_58
+  - first:
+      213: 3023390031944437924
+    second: window_broken-Sheet_59
+  - first:
+      213: -6858860015909085089
+    second: window_broken-Sheet_60
+  - first:
+      213: -2342270540431147906
+    second: window_broken-Sheet_61
+  - first:
+      213: 5023388459160945817
+    second: window_broken-Sheet_62
+  - first:
+      213: 5717820675804125158
+    second: window_broken-Sheet_63
+  - first:
+      213: -655190883110038997
+    second: window_broken-Sheet_64
+  - first:
+      213: -1672635010066160712
+    second: window_broken-Sheet_65
+  - first:
+      213: -6308761455442392455
+    second: window_broken-Sheet_66
+  - first:
+      213: -3684760956017459030
+    second: window_broken-Sheet_67
+  - first:
+      213: 5224245573675410130
+    second: window_broken-Sheet_68
+  - first:
+      213: 7262676341966246580
+    second: window_broken-Sheet_69
+  - first:
+      213: 2477478806695022918
+    second: window_broken-Sheet_70
+  - first:
+      213: 1455433946656845414
+    second: window_broken-Sheet_71
+  - first:
+      213: 4589974797407067411
+    second: window_broken-Sheet_72
+  - first:
+      213: -4944730201390167470
+    second: window_broken-Sheet_73
+  - first:
+      213: 168910684602297001
+    second: window_broken-Sheet_74
+  - first:
+      213: -3818146400855302178
+    second: window_broken-Sheet_75
+  - first:
+      213: -1936327669887623681
+    second: window_broken-Sheet_76
+  - first:
+      213: 6792006968993857644
+    second: window_broken-Sheet_77
+  - first:
+      213: 502721651120835885
+    second: window_broken-Sheet_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: window_broken-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2234
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7698d90f08829c7d0800000000000000
+      internalID: -2897740350978422425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2123
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2877624ea8561fb00800000000000000
+      internalID: 860580651012093826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2012
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c039da5ddc6d7a30800000000000000
+      internalID: 4214644524256407749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1901
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6558edb7f0a2d450800000000000000
+      internalID: 6112124630198670702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1790
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f481ce20a6ba3e0800000000000000
+      internalID: -2041421445298893002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1679
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aab36f1bae04e810800000000000000
+      internalID: 1793574679729126055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1568
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127856ed82c2125e0800000000000000
+      internalID: -1936217810751092959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1457
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2810ef90e9cc68560800000000000000
+      internalID: 7315759623854489986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1346
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016f8689008b15c80800000000000000
+      internalID: -8335679122589551088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1235
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d624e995c26a0f560800000000000000
+      internalID: 7345553701653594733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1124
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d6d8790ac62f060800000000000000
+      internalID: 6985765408998256030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1013
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898c88b0acf5163e0800000000000000
+      internalID: -2062261832977430376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 902
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128dba0d3f867c680800000000000000
+      internalID: -8734897555874523103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 791
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ce59ca7941b02b0800000000000000
+      internalID: -5617373468546438092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 680
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895340cabe6b6c1a0800000000000000
+      internalID: -6789538264894917224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 569
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e76c0a7ef8b385e0800000000000000
+      internalID: -1908478413966120989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 458
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9496d23649f6e2380800000000000000
+      internalID: -8994128722702538423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 347
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9d8054eff6c8f00800000000000000
+      internalID: 1120393545178995112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 236
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2d1864a116017c0800000000000000
+      internalID: -4102672495054564674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 125
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ea688967db23410800000000000000
+      internalID: 1455433946656845414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: window_broken-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 14
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd969b4e38c025e0800000000000000
+      internalID: -1936327669887623681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 45ea30c49d8a5a04183d3c0b153fd43e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      window_broken-Sheet_0: -2897740350978422425
+      window_broken-Sheet_1: 860580651012093826
+      window_broken-Sheet_10: 6985765408998256030
+      window_broken-Sheet_11: -2062261832977430376
+      window_broken-Sheet_12: -8734897555874523103
+      window_broken-Sheet_13: 6229053890753456101
+      window_broken-Sheet_14: -5617373468546438092
+      window_broken-Sheet_15: -5481974053575596568
+      window_broken-Sheet_16: 8445361614714617363
+      window_broken-Sheet_17: 5835437528611167784
+      window_broken-Sheet_18: -6789538264894917224
+      window_broken-Sheet_19: 4893099940777365353
+      window_broken-Sheet_2: 4214644524256407749
+      window_broken-Sheet_20: 3040560541594650961
+      window_broken-Sheet_21: -1908478413966120989
+      window_broken-Sheet_22: -5951193218641492163
+      window_broken-Sheet_23: -2913427340848668448
+      window_broken-Sheet_24: -5263484340358881030
+      window_broken-Sheet_25: -7660757680666125140
+      window_broken-Sheet_26: -3924238278437492018
+      window_broken-Sheet_27: 2185495770909536040
+      window_broken-Sheet_28: -3339878958535706266
+      window_broken-Sheet_29: -2164885851549776314
+      window_broken-Sheet_3: 6112124630198670702
+      window_broken-Sheet_30: 2520798516838939047
+      window_broken-Sheet_31: 1272419837966237196
+      window_broken-Sheet_32: -2241328133341211553
+      window_broken-Sheet_33: -8994128722702538423
+      window_broken-Sheet_34: 637690827498907410
+      window_broken-Sheet_35: 8147126514180238948
+      window_broken-Sheet_36: -325550651104124019
+      window_broken-Sheet_37: -3519240130886234978
+      window_broken-Sheet_38: -6632906748112770669
+      window_broken-Sheet_39: 2109632683436004641
+      window_broken-Sheet_4: -2041421445298893002
+      window_broken-Sheet_40: 2246642049653921570
+      window_broken-Sheet_41: -3530053588233372035
+      window_broken-Sheet_42: 778587815725976933
+      window_broken-Sheet_43: -7489050557166183833
+      window_broken-Sheet_44: -9077321378326668930
+      window_broken-Sheet_45: 1120393545178995112
+      window_broken-Sheet_46: -2142659608786561973
+      window_broken-Sheet_47: 8218034471216837249
+      window_broken-Sheet_48: 1242695247563769646
+      window_broken-Sheet_49: 2353796529446073343
+      window_broken-Sheet_5: 1793574679729126055
+      window_broken-Sheet_50: -3869235910814353141
+      window_broken-Sheet_51: -6689392583402895779
+      window_broken-Sheet_52: -2930807125746139744
+      window_broken-Sheet_53: 7409380986322291849
+      window_broken-Sheet_54: 4568417209526572090
+      window_broken-Sheet_55: 6954581013996176205
+      window_broken-Sheet_56: -3506758513714752313
+      window_broken-Sheet_57: -4102672495054564674
+      window_broken-Sheet_58: 185637689211464646
+      window_broken-Sheet_59: 3023390031944437924
+      window_broken-Sheet_6: -1936217810751092959
+      window_broken-Sheet_60: -6858860015909085089
+      window_broken-Sheet_61: -2342270540431147906
+      window_broken-Sheet_62: 5023388459160945817
+      window_broken-Sheet_63: 5717820675804125158
+      window_broken-Sheet_64: -655190883110038997
+      window_broken-Sheet_65: -1672635010066160712
+      window_broken-Sheet_66: -6308761455442392455
+      window_broken-Sheet_67: -3684760956017459030
+      window_broken-Sheet_68: 5224245573675410130
+      window_broken-Sheet_69: 7262676341966246580
+      window_broken-Sheet_7: 7315759623854489986
+      window_broken-Sheet_70: 2477478806695022918
+      window_broken-Sheet_71: 1455433946656845414
+      window_broken-Sheet_72: 4589974797407067411
+      window_broken-Sheet_73: -4944730201390167470
+      window_broken-Sheet_74: 168910684602297001
+      window_broken-Sheet_75: -3818146400855302178
+      window_broken-Sheet_76: -1936327669887623681
+      window_broken-Sheet_77: 6792006968993857644
+      window_broken-Sheet_78: 502721651120835885
+      window_broken-Sheet_8: -8335679122589551088
+      window_broken-Sheet_9: 7345553701653594733
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

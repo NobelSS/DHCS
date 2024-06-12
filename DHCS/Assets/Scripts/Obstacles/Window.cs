@@ -12,11 +12,13 @@ public class Window : MonoBehaviour
     private BoxCollider2D collider;
     private GameController HP;
     private PlayerStateManager player;
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         windowRenderer = windowObs.GetComponent<Renderer>();
+        animator = GetComponent<Animator>();
         GameObject Theodore = GameObject.Find("Theodore");
         if (Theodore != null)
         {
@@ -41,13 +43,13 @@ public class Window : MonoBehaviour
     private IEnumerator ChangeMaterialDelayed(Material newMaterial, float delay)
     {
         yield return new WaitForSeconds(delay);
-        windowRenderer.material = newMaterial;
+        animator.SetTrigger("Break");
         windowBroken = true;
         if(isInWindow && HP != null && player.currentState != player.hideState)
         {
             HP.currHP--;
-
         }
+        collider.enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
