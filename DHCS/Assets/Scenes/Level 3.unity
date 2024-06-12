@@ -12293,7 +12293,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSounds: []
-  sfxSounds: []
+  sfxSounds:
+  - name: walk
+    clip: {fileID: 8300000, guid: b3c87b1056e8274458b0dfd3e979508e, type: 3}
+  - name: run
+    clip: {fileID: 8300000, guid: 344b6ac1803b9b94ca9da92eddf6b49c, type: 3}
+  - name: jump
+    clip: {fileID: 8300000, guid: 400f27bb603e2c0468679af0ca2164d2, type: 3}
+  - name: death
+    clip: {fileID: 8300000, guid: a65fb756b475ae9489c3e1eaf2700a7d, type: 3}
+  - name: grapple
+    clip: {fileID: 8300000, guid: 06a15ec27888500439cc5b293047d068, type: 3}
+  - name: shine
+    clip: {fileID: 8300000, guid: 95dae471afa83e14da600aa484a3a452, type: 3}
+  - name: falling
+    clip: {fileID: 8300000, guid: cda5ad046acc2e44fb174116ad5b66ad, type: 3}
+  - name: destroy
+    clip: {fileID: 8300000, guid: 3fc626e06d890ae4084260fa8e093ddc, type: 3}
+  - name: exit
+    clip: {fileID: 8300000, guid: 47b50881378e2564891d0b53bae3396f, type: 3}
+  - name: tired
+    clip: {fileID: 8300000, guid: 7c7093d65235db543a74b988b8c6d888, type: 3}
+  - name: fit
+    clip: {fileID: 8300000, guid: 4fa57121bf160f748ba7f3d6c8efd8c5, type: 3}
+  - name: window
+    clip: {fileID: 8300000, guid: 0d1078d4f6bb9e04faec1a8f7b43ad3d, type: 3}
+  - name: press
+    clip: {fileID: 8300000, guid: 5a6d2002885f87445984e6642e156539, type: 3}
+  - name: crumble
+    clip: {fileID: 8300000, guid: ce646eefc8c5133418358ee6cceb5389, type: 3}
+  - name: crumbling
+    clip: {fileID: 8300000, guid: afc22f190591d5347915fe01cce9a862, type: 3}
   musicSource: {fileID: 1656657462}
   sfxSource: {fileID: 1037164581}
 --- !u!4 &957459742
