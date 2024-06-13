@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b753da13d81889b4a92364633f87ffb3
+guid: cfb8f0d7fc83bd04aaf9d49d408fdd6f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7412757941174470090
-    second: Potraits 1 Smile_0
+      213: 9169877530624898698
+    second: Slider_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Potraits 1 Smile_0
+      name: Slider_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 640
-        height: 611
+        x: 67
+        y: 98
+        width: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63af65e4de7902990800000000000000
-      internalID: -7412757941174470090
+      spriteID: a86bbbea703f14f70800000000000000
+      internalID: 9169877530624898698
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Potraits 1 Smile_0: -7412757941174470090
+      Slider_0: 9169877530624898698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

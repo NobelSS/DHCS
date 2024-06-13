@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Potraits Safety Worker Shock_0: -7765760057188048
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

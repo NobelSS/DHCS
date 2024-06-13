@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Potraits 1 Shock_0: -6822697415113566638
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

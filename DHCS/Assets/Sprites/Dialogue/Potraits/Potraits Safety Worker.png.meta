@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Potraits Safety Worker_0: 498623792698872186
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
