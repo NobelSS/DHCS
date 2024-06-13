@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 87742e7df2bf444489ba73311eb71e3a
+guid: d242d9e5e92510247bc2f6cc1bfbc24b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3491606951004172564
-    second: UI-Sheet_0
+      213: 5915648057415318614
+    second: Full CIty_0
   - first:
-      213: -3805555814658317902
-    second: UI-Sheet_1
+      213: -8837050732570058194
+    second: Full CIty_1
   - first:
-      213: -7659719219588376922
-    second: UI-Sheet_2
+      213: 5829425787262378764
+    second: Full CIty_2
   - first:
-      213: 847938663019189637
-    second: UI-Sheet_3
+      213: 4259005782287793961
+    second: Full CIty_3
+  - first:
+      213: 4131518280431075905
+    second: Full CIty_4
+  - first:
+      213: 4893795491040682426
+    second: Full CIty_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,9 +55,9 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -109,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI-Sheet_0
+      name: Full CIty_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 115
-        width: 130
-        height: 50
+        x: 0
+        y: 352
+        width: 170
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,20 +129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cee8c163af15b8fc0800000000000000
-      internalID: -3491606951004172564
+      spriteID: 65c3876d09a981250800000000000000
+      internalID: 5915648057415318614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI-Sheet_1
+      name: Full CIty_1
       rect:
         serializedVersion: 2
-        x: 205
-        y: 67
-        width: 54
-        height: 50
+        x: 206
+        y: 364
+        width: 261
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b16e563623ff2bc0800000000000000
-      internalID: -3805555814658317902
+      spriteID: e226e0fed2d7c5580800000000000000
+      internalID: -8837050732570058194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI-Sheet_2
+      name: Full CIty_2
       rect:
         serializedVersion: 2
-        x: 15
-        y: 60
-        width: 130
-        height: 50
+        x: 565
+        y: 374
+        width: 83
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a6d335e3f533b590800000000000000
-      internalID: -7659719219588376922
+      spriteID: c03a64e2ed746e050800000000000000
+      internalID: 5829425787262378764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI-Sheet_3
+      name: Full CIty_3
       rect:
         serializedVersion: 2
-        x: 15
-        y: 3
-        width: 130
-        height: 50
+        x: 822
+        y: 375
+        width: 185
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,8 +192,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5851490b8bb74cb00800000000000000
-      internalID: 847938663019189637
+      spriteID: 92f399d91370b1b30800000000000000
+      internalID: 4259005782287793961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full CIty_4
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 357
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14280208cf9165930800000000000000
+      internalID: 4131518280431075905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full CIty_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1007
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab163e612114ae340800000000000000
+      internalID: 4893795491040682426
       vertices: []
       indices: 
       edges: []
@@ -203,10 +251,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      UI-Sheet_0: -3491606951004172564
-      UI-Sheet_1: -3805555814658317902
-      UI-Sheet_2: -7659719219588376922
-      UI-Sheet_3: 847938663019189637
+      Full CIty_0: 5915648057415318614
+      Full CIty_1: -8837050732570058194
+      Full CIty_2: 5829425787262378764
+      Full CIty_3: 4259005782287793961
+      Full CIty_4: 4131518280431075905
+      Full CIty_5: 4893795491040682426
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

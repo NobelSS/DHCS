@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 747dce7c9a9ca064ebb2916fa8d35b1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5263499763123722446
+    second: Cloud RawImage_0
+  - first:
+      213: 4359477099919849668
+    second: Cloud RawImage_1
+  - first:
+      213: 8292481779198891922
+    second: Cloud RawImage_2
+  - first:
+      213: -2859354814236809575
+    second: Cloud RawImage_3
+  - first:
+      213: -1120692031099480407
+    second: Cloud RawImage_4
+  - first:
+      213: 3015177774528185037
+    second: Cloud RawImage_5
+  - first:
+      213: 4433232913716720738
+    second: Cloud RawImage_6
+  - first:
+      213: -6709428612280781015
+    second: Cloud RawImage_7
+  - first:
+      213: 4067282418451243389
+    second: Cloud RawImage_8
+  - first:
+      213: 3188349042487134143
+    second: Cloud RawImage_9
+  - first:
+      213: -6031684305827699802
+    second: Cloud RawImage_10
+  - first:
+      213: 795436148947082884
+    second: Cloud RawImage_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cloud RawImage_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 119
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23768a74ada44f6b0800000000000000
+      internalID: -5263499763123722446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud RawImage_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 127
+        width: 114
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c83c2b2359ff7c30800000000000000
+      internalID: 4359477099919849668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud RawImage_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 127
+        width: 130
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2979c832e30d41370800000000000000
+      internalID: 8292481779198891922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud RawImage_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 133
+        width: 82
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996ac9a22f78158d0800000000000000
+      internalID: -2859354814236809575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud RawImage_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 63
+        width: 82
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a654bf09808270f0800000000000000
+      internalID: -1120692031099480407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud RawImage_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 63
+        width: 114
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2c769f53018d920800000000000000
+      internalID: 3015177774528185037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud RawImage_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 63
+        width: 82
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264b7a4c8d1068d30800000000000000
+      internalID: 4433232913716720738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud RawImage_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 63
+        width: 61
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9277927a93253e2a0800000000000000
+      internalID: -6709428612280781015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud RawImage_8
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 63
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d716af86fc3e17830800000000000000
+      internalID: 4067282418451243389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud RawImage_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 35
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb70761cf8a4f3c20800000000000000
+      internalID: 3188349042487134143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud RawImage_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 10
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a367d1c4172b4ca0800000000000000
+      internalID: -6031684305827699802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloud RawImage_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 15
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ede7b86f4f90b00800000000000000
+      internalID: 795436148947082884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cloud RawImage_0: -5263499763123722446
+      Cloud RawImage_1: 4359477099919849668
+      Cloud RawImage_10: -6031684305827699802
+      Cloud RawImage_11: 795436148947082884
+      Cloud RawImage_2: 8292481779198891922
+      Cloud RawImage_3: -2859354814236809575
+      Cloud RawImage_4: -1120692031099480407
+      Cloud RawImage_5: 3015177774528185037
+      Cloud RawImage_6: 4433232913716720738
+      Cloud RawImage_7: -6709428612280781015
+      Cloud RawImage_8: 4067282418451243389
+      Cloud RawImage_9: 3188349042487134143
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
