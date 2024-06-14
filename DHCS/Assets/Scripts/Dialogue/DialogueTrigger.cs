@@ -15,8 +15,10 @@ public class DialogueTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        dialogueScene.SetActive(true);
+        //Time.timeScale = 0f;
+        
         if(count == 0) {
+            dialogueScene.SetActive(true);
             TriggerDialogue();
         }
         count = 1;
@@ -31,5 +33,6 @@ public class DialogueTrigger : MonoBehaviour
     public void CloseDialogue()
     {
         dialogueScene.SetActive(false);
+        //Time.timeScale = 1f;
     }
 }

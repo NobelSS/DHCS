@@ -7,7 +7,7 @@ public class PlayerIdleState : PlayerBaseState
     
     public override void EnterState(PlayerStateManager player)
     {
-        // Debug.Log("ello from idel staet");
+        Debug.Log("ello from idel staet");
     }
 
     public override void ExitState(PlayerStateManager player)

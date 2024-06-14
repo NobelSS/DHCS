@@ -27,6 +27,7 @@ public class PlayerMoveState : PlayerBaseState
     public override void ExitState(PlayerStateManager player)
     {
         AudioManager.Instance.loopSource.Stop();
+        Debug.Log(currentSpeed);
     }
 
     public override void UpdateState(PlayerStateManager player)

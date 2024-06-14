@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      crumbling floor_0: -411842354918548972
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

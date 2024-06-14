@@ -11,19 +11,26 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
     public Image charImage;
+    private string currSentence;
+    public bool inDialogue = false;
+    public PlayerStateManager theodore;
+    //public Animator animator;
 
-    public Animator animator;
-    public Animator charAnimator;
 
     void Start()
     {
+        
         sentences = new Queue<string>();
         sprites = new Queue<Sprite>();
+        inDialogue = false;
     }
 
     public void StartDialogue(DialogueContent dialogue)
     {
-        animator.SetBool("IsOpen", true);
+        //theodore.rb.velocity = Vector2.zero;
+        //theodore.changeState(theodore.idleState);
+        inDialogue = true;
+        //animator.SetBool("IsOpen", true);
         nameText.text = dialogue.name;
         sentences.Clear();
         sprites.Clear();
@@ -50,27 +57,44 @@ public class DialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
+        currSentence = sentence;
         Sprite sprite = sprites.Dequeue();
-        charAnimator.SetTrigger("Talk");
         charImage.sprite = sprite;
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }
+
+    public void CompleteSentence()
+    {
+        if(dialogueText.text != currSentence)
+        {
+            dialogueText.text = currSentence; 
+        }
+        else
+        {
+            StopAllCoroutines();
+            DisplayNextSentence();
+        }
+    }
+
     IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
-            dialogueText.text += letter;
-            yield return new WaitForSeconds(0.05f);
+            if (dialogueText.text != currSentence) { 
+                dialogueText.text += letter;
+                yield return new WaitForSeconds(0.05f);
+            }
         }
 
     }
 
     void EndDialogue()
     {
+        inDialogue = false;
         FindAnyObjectByType<DialogueTrigger>().CloseDialogue();
-        animator.SetBool("IsOpen", false);
-        Debug.Log("Chatting Ended");
+        //animator.SetBool("IsOpen", false);
+        //Debug.Log("Chatting Ended");
     }
 }

@@ -32,7 +32,7 @@ public class PlayerStateManager : MonoBehaviour
     
     internal Rigidbody2D rb;
     public Animator animator;
-
+    [SerializeField] public DialogueManager dm;
     private Dialogue dialogue;
     [Header ("UI")]
     public StaminaBar staminaBar;
@@ -48,8 +48,9 @@ public class PlayerStateManager : MonoBehaviour
         currentState = idleState;
         currentState.EnterState(this);
         gameOverScreen.SetActive(false);
-        
-       
+        //dm = FindAnyObjectByType<DialogueManager>();
+        //Debug.Log("HELLO????");
+        //Debug.Log(dm);
 
         staminaBar.SetMaxStamina(moveState.maxStamina);
     }
@@ -57,36 +58,41 @@ public class PlayerStateManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        staminaBar.SetStamina(moveState.currentStamina);
-        if(currentState == duckState)
-        {  
-           moveState.currentStamina = -1;
-        }
-
-        
-        currentState.UpdateState(this);
-        if(currentState != deathState)
+        if (!dm.inDialogue)
         {
-            if(HP.currHP == 0)
+            staminaBar.SetStamina(moveState.currentStamina);
+            if (currentState == duckState)
             {
-                animator.SetBool("Death", true);
-                changeState(deathState);
-                Debug.Log("Dead");
+                moveState.currentStamina = -1;
             }
-            else if(HP.currHP == 1)
+
+
+            currentState.UpdateState(this);
+            if (currentState != deathState)
             {
-                animator.SetBool("Death", false);
+                if (HP.currHP == 0)
+                {
+                    animator.SetBool("Death", true);
+                    changeState(deathState);
+                    Debug.Log("Dead");
+                }
+                else if (HP.currHP == 1)
+                {
+                    animator.SetBool("Death", false);
+                }
+            }
+
+            if (Input.GetKeyDown(KeyCode.CapsLock))
+            {
+                Time.timeScale = 0.5f;
+                Time.fixedDeltaTime = Time.timeScale * 0.02f;
             }
         }
-
-        if(Input.GetKeyDown(KeyCode.CapsLock))
+        else
         {
-            Time.timeScale = 0.5f;
-            Time.fixedDeltaTime = Time.timeScale * 0.02f;
+            rb.velocity = Vector2.zero;
+            animator.SetFloat("Speed", 0);
         }
-
-      
-       
     }
 
     public void changeState(PlayerBaseState newState)

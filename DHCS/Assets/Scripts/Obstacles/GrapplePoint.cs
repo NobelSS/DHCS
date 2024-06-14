@@ -7,14 +7,14 @@ public class GrapplePoint : MonoBehaviour
     Transform grapplePos;
     SpriteRenderer sr;
     GameObject character;
-    public Animator animator;
+    internal Animator animator;
     float distance;
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         grapplePos = GetComponent<Transform>();
         character = GameObject.FindWithTag("Player");
-        
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
