@@ -69,6 +69,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+        FindAnyObjectByType<DialogueTrigger>().CloseDialogue();
         animator.SetBool("IsOpen", false);
         Debug.Log("Chatting Ended");
     }
