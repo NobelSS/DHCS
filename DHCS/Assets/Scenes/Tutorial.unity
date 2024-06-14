@@ -1272,7 +1272,6 @@ GameObject:
   m_Component:
   - component: {fileID: 246496741}
   - component: {fileID: 246496743}
-  - component: {fileID: 246496742}
   m_Layer: 0
   m_Name: 1 (1)
   m_TagString: Untagged
@@ -1295,20 +1294,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1605770803}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &246496742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 246496740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae12e705838d6664ca6dc19a39601748, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 522642454}
-  parallaxEffect: 0.7
 --- !u!212 &246496743
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5557,7 +5542,6 @@ GameObject:
   m_Component:
   - component: {fileID: 897027870}
   - component: {fileID: 897027872}
-  - component: {fileID: 897027871}
   m_Layer: 0
   m_Name: 1 (2)
   m_TagString: Untagged
@@ -5580,20 +5564,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1605770803}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &897027871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897027869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae12e705838d6664ca6dc19a39601748, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 522642454}
-  parallaxEffect: 0.7
 --- !u!212 &897027872
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13220,7 +13190,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1374800185}
   - component: {fileID: 1374800187}
-  - component: {fileID: 1374800186}
   m_Layer: 0
   m_Name: 1 (2)
   m_TagString: Untagged
@@ -13243,20 +13212,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1877000620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1374800186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374800184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae12e705838d6664ca6dc19a39601748, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 522642454}
-  parallaxEffect: 0.7
 --- !u!212 &1374800187
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17886,7 +17841,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1514277297}
   - component: {fileID: 1514277299}
-  - component: {fileID: 1514277298}
   m_Layer: 0
   m_Name: 1 (1)
   m_TagString: Untagged
@@ -17909,20 +17863,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1877000620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1514277298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514277296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae12e705838d6664ca6dc19a39601748, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 522642454}
-  parallaxEffect: 0.7
 --- !u!212 &1514277299
 SpriteRenderer:
   m_ObjectHideFlags: 0
