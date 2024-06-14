@@ -16,12 +16,16 @@ public class DialogueTrigger : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         //Time.timeScale = 0f;
-        
-        if(count == 0) {
-            dialogueScene.SetActive(true);
-            TriggerDialogue();
+        if (other.CompareTag("Player"))
+        {
+            if (count == 0)
+            {
+                dialogueScene.SetActive(true);
+                TriggerDialogue();
+            }
+            count = 1;
         }
-        count = 1;
+            
     }
 
     public void TriggerDialogue()
