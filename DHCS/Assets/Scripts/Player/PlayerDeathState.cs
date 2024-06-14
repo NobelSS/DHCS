@@ -8,6 +8,7 @@ public class PlayerDeathState : PlayerBaseState
     private float time;
     public override void EnterState(PlayerStateManager player)
     {
+        AudioManager.Instance.PlaySFX("death");
         Debug.Log("is dead");
         player.gameOverScreen.SetActive(true);
     }

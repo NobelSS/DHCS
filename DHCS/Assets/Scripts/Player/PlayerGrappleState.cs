@@ -30,6 +30,8 @@ public class PlayerGrappleState : PlayerBaseState
         }
         player.distanceJoint.enabled = true;
         player.lineRenderer.enabled = true;
+
+        AudioManager.Instance.PlaySFX("grapple");
     }
 
     public override void ExitState(PlayerStateManager player)

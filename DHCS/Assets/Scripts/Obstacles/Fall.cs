@@ -29,6 +29,7 @@ public class DetectionArea : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             obstacle.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            AudioManager.Instance.PlaySFX("falling");
           
             
         }   
@@ -43,6 +44,7 @@ public class DetectionArea : MonoBehaviour
             if(HP != null && player.currentState != player.hideState)
             {
                 HP.currHP--;
+                AudioManager.Instance.PlaySFX("destroy");
             }
         }
     }

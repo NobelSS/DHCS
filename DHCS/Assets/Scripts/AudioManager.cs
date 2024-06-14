@@ -7,8 +7,8 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
 
-    public Sound[] musicSounds, sfxSounds;
-    public AudioSource musicSource, sfxSource;
+    public Sound[] musicSounds, sfxSounds, loopSounds;
+    public AudioSource musicSource, sfxSource, loopSource;
 
     private void Awake()
     {
@@ -63,6 +63,22 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    public void PlayLoop(string name)
+    {
+        Sound s = Array.Find(loopSounds, x=> x.name == name);
+
+        if (s == null)
+        {
+            Debug.Log("Sound Not Found");
+        }
+
+        else
+        {
+            loopSource.clip = s.clip;
+            loopSource.Play();
+        }
+    }
+
     public void MusicVolume(float volume)
     {
         musicSource.volume = volume;
@@ -71,5 +87,9 @@ public class AudioManager : MonoBehaviour
      public void FXVolume(float volume)
     {
         sfxSource.volume = volume;
+    }
+     public void LoopVolume(float volume)
+    {
+        loopSource.volume = volume;
     }
 }

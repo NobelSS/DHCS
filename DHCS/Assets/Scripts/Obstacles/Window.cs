@@ -59,6 +59,7 @@ public class Window : MonoBehaviour
         {
             StartCoroutine(ChangeMaterialDelayed(tempIndicator, 0.5f));
             isInWindow = true;
+            AudioManager.Instance.PlaySFX("window");
         }
     }
     private void OnTriggerExit2D(Collider2D other)

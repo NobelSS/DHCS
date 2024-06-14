@@ -20,12 +20,13 @@ public class PlayerMoveState : PlayerBaseState
     {
         Debug.Log("ello from playermeovstaet");
         player.staminaBar.SetMaxStamina(maxStamina);
+        AudioManager.Instance.PlayLoop("walk");
         
     }
 
     public override void ExitState(PlayerStateManager player)
     {
-        
+        AudioManager.Instance.loopSource.Stop();
     }
 
     public override void UpdateState(PlayerStateManager player)

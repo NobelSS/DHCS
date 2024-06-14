@@ -11,6 +11,7 @@ public class PlayerJumpState : PlayerBaseState
         Debug.Log("ello from playerjumpstaet");
         Vector2 diveForce = new Vector2(0f, player.diveForce / 2);
         player.rb.velocity += diveForce;
+        AudioManager.Instance.PlaySFX("jump");
 
     }
 
