@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Crumble : MonoBehaviour
 {
-    public GameObject crumblingFloor;
+    public GameObject[] crumblingFloor;
     private PlayerStateManager player;
-
+    
     void Start()
     {
         GameObject Theodore = GameObject.Find("Theodore");
@@ -17,6 +17,7 @@ public class Crumble : MonoBehaviour
             player = Theodore.GetComponent<PlayerStateManager>();
             
         }
+        
     }
     void Update()
     {
@@ -30,7 +31,13 @@ public class Crumble : MonoBehaviour
         {
            
             if(player.moveState.currentSpeed > 4.5f)
-                Destroy(crumblingFloor, 0.1f);
+            {
+                foreach (GameObject obj in crumblingFloor)
+                {
+                // Destroy each game object in the array
+                Destroy(obj, 0.1f);
+                }
+            }
         }
     }
 }

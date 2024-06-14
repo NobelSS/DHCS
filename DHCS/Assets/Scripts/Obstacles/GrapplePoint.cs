@@ -7,12 +7,14 @@ public class GrapplePoint : MonoBehaviour
     Transform grapplePos;
     SpriteRenderer sr;
     GameObject character;
+    public Animator animator;
     float distance;
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         grapplePos = GetComponent<Transform>();
         character = GameObject.FindWithTag("Player");
+        
     }
 
     private void Update()
@@ -22,10 +24,11 @@ public class GrapplePoint : MonoBehaviour
             distance = Vector2.Distance(grapplePos.position, character.transform.position);
             if (distance < 5)
             {
-                sr.color = Color.red;
+                animator.SetBool("Distance", true);
             }
             else
             {
+                animator.SetBool("Distance", false);
                 sr.color = Color.white;
             }
         }
@@ -47,5 +50,4 @@ public class GrapplePoint : MonoBehaviour
         }
     }
 
-    
 }

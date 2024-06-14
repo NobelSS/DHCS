@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f1367eb8846f4704ba80ea668119d8c6
+guid: ad5d81aecde3958459010a11cc9d4cfd
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 32
+    spritePixelsToUnits: 100
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638532904835937780
+  platformSettingsDirtyTick: 638539911920900334
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +119,158 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: floor and roof
+  - name: crumbling floor_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 1.0360577, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 628
+      width: 208
+      height: 96
+    spriteID: ba5c6b4eb902f6341bf0950c86f34e03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 628}
+  - name: crumbling floor_Frame_1
+    originalName: 
+    pivot: {x: 0.6907052, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 654
+      y: 420
+      width: 312
+      height: 96
+    spriteID: c1caebef0fed87d4ea498c4dcc689fa8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 654, y: 420}
+  - name: crumbling floor_Frame_2
+    originalName: 
+    pivot: {x: 0.6907052, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 524
+      width: 312
+      height: 96
+    spriteID: c5711b7f35509b9489845753ce3b622a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 524}
+  - name: crumbling floor_Frame_3
+    originalName: 
+    pivot: {x: 0.6907052, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 324
+      y: 524
+      width: 312
+      height: 96
+    spriteID: cef19c3886491684882a8f10e0eeee2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 324, y: 524}
+  - name: crumbling floor_Frame_4
+    originalName: 
+    pivot: {x: 0.6907052, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 644
+      y: 524
+      width: 312
+      height: 96
+    spriteID: 918cb91c12a5f814ba69dd20cb42f04b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 644, y: 524}
+  - name: crumbling floor_Frame_5
+    originalName: 
+    pivot: {x: 0.67981076, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 420
+      width: 317
+      height: 96
+    spriteID: 0931c19b6dc750c49b30a8dd88ef5b5c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 420}
+  - name: crumbling floor_Frame_6
+    originalName: 
+    pivot: {x: 0.67981076, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 329
+      y: 420
+      width: 317
+      height: 96
+    spriteID: 8dc1f175ed662ac47ae5d1ddbced74bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 329, y: 420}
+  - name: crumbling floor_Frame_7
+    originalName: 
+    pivot: {x: 0.6755486, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 480
-      height: 224
-    spriteID: f6ee55899ddf6144e9c88d7c85deeb59
+      width: 319
+      height: 96
+    spriteID: 17b4a20aa5eb0ef4bb9d7c19476fd06e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -139,19 +279,259 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: crumbling floor_Frame_8
+    originalName: 
+    pivot: {x: 0.6755486, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 331
+      y: 4
+      width: 319
+      height: 96
+    spriteID: 557d2e2f5b918ab4e9c16a508c3a2c8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 331, y: 4}
+  - name: crumbling floor_Frame_9
+    originalName: 
+    pivot: {x: 0.6755486, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 658
+      y: 4
+      width: 319
+      height: 96
+    spriteID: 901abd5f271c99c4389c934cc6e55d47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 658, y: 4}
+  - name: crumbling floor_Frame_10
+    originalName: 
+    pivot: {x: 0.6755486, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 108
+      width: 319
+      height: 96
+    spriteID: c4b605b5b7bb9fd4aa1edb5e9f0a17e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 108}
+  - name: crumbling floor_Frame_11
+    originalName: 
+    pivot: {x: 0.6755486, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 331
+      y: 108
+      width: 319
+      height: 96
+    spriteID: e9ad6c5e1d36cbd44919c0327e30a889
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 331, y: 108}
+  - name: crumbling floor_Frame_12
+    originalName: 
+    pivot: {x: 0.6755486, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 658
+      y: 108
+      width: 319
+      height: 96
+    spriteID: 4f948c414ea255342a50100c545bfcce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 658, y: 108}
+  - name: crumbling floor_Frame_13
+    originalName: 
+    pivot: {x: 0.6755486, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 212
+      width: 319
+      height: 96
+    spriteID: f0da2d44cd7835b4eb1212e7597639c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 212}
+  - name: crumbling floor_Frame_14
+    originalName: 
+    pivot: {x: 0.6755486, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 331
+      y: 212
+      width: 319
+      height: 96
+    spriteID: a1a6184ef2f10474f82d77bbfbfbf902
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 331, y: 212}
+  - name: crumbling floor_Frame_15
+    originalName: 
+    pivot: {x: 0.6755486, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 658
+      y: 212
+      width: 319
+      height: 96
+    spriteID: 4401edc96e3895b48967a6ee6bb60287
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 658, y: 212}
+  - name: crumbling floor_Frame_16
+    originalName: 
+    pivot: {x: 0.6755486, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 316
+      width: 319
+      height: 96
+    spriteID: ec1bdcfd28a69cd41af67b1d05767d69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 316}
+  - name: crumbling floor_Frame_17
+    originalName: 
+    pivot: {x: 0.6755486, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 331
+      y: 316
+      width: 319
+      height: 96
+    spriteID: acb59d0258a9beb44b0f589582c6ca92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 331, y: 316}
+  - name: crumbling floor_Frame_18
+    originalName: 
+    pivot: {x: 0.6755486, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 658
+      y: 316
+      width: 319
+      height: 96
+    spriteID: be935cd0448e3b946b3ebe63ad639199
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 658, y: 316}
+  - name: crumbling floor_Frame_19
+    originalName: 
+    pivot: {x: 1.0360577, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 628
+      width: 208
+      height: 96
+    spriteID: 941e6616ebfc4f64ba22f173ded83c87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 628}
   spriteSheetImportData:
-  - name: floor and roof_0
+  - name: crumbling floor_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 196
-      width: 32
-      height: 32
-    spriteID: ac19da335fd58994f9eb2c2e7da0fd86
+      x: 658
+      y: 3
+      width: 96
+      height: 97
+    spriteID: 444a01cf4b5a01a46a525d42e4e43caf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -160,58 +540,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: floor and roof_1
+  - name: crumbling floor_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 164
-      width: 32
-      height: 32
-    spriteID: 24b279ba2ac009f408702216d322cc4e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 132
-      width: 32
-      height: 32
-    spriteID: 306def96c9f68c142acadb5f627a7fc7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_3
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 68
+      x: 770
       y: 4
-      width: 32
-      height: 32
-    spriteID: 74f2f4a3ec42f4d4ebc74760207989ef
+      width: 96
+      height: 96
+    spriteID: f8f2af3b6cc08854092655f3aefdcbc4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,18 +560,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: floor and roof_4
+  - name: crumbling floor_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 68
-      y: 36
-      width: 32
-      height: 32
-    spriteID: 21828db52e7f83349baf1972e6cef480
+      x: 770
+      y: 108
+      width: 96
+      height: 96
+    spriteID: 62a6a9a2330cdec47aba8cf0565789dd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -240,18 +580,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: floor and roof_5
+  - name: crumbling floor_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 68
-      y: 68
-      width: 32
-      height: 32
-    spriteID: 6dcab8ccc638ebc408c32c6ea3bf94ce
+      x: 770
+      y: 212
+      width: 96
+      height: 96
+    spriteID: 4e696ed1c8467a048b80497d9a3d9fd9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -260,358 +600,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: floor and roof_6
+  - name: crumbling floor_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 388
-      y: 196
-      width: 32
-      height: 32
-    spriteID: f650584c18047244fb1957c4c4cbe34b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_7
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 388
-      y: 164
-      width: 32
-      height: 32
-    spriteID: d1e22924bf8854240977390f32437441
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_8
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 388
-      y: 132
-      width: 32
-      height: 32
-    spriteID: ca182de7abac05945ba3ec44865180f3
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_9
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 420
-      y: 196
-      width: 32
-      height: 32
-    spriteID: 9ca7af04cc7d07e458fc5793b463bf00
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_10
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 420
-      y: 164
-      width: 32
-      height: 32
-    spriteID: a96e88117a1eda948b77cdb70f60a9c8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_11
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 420
-      y: 132
-      width: 32
-      height: 32
-    spriteID: 5d57190a535a0ae449e1522cf4052cfb
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_12
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 452
-      y: 132
-      width: 32
-      height: 32
-    spriteID: b50061f7f1652ea44b0d255849d00e22
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_13
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 452
-      y: 164
-      width: 32
-      height: 32
-    spriteID: a550728d49b685446a86f2202fbc3a0a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_14
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 452
-      y: 196
-      width: 32
-      height: 32
-    spriteID: fbb8f151a6f270a41b4a8d380a6e4e76
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_15
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 388
-      y: 4
-      width: 32
-      height: 32
-    spriteID: 7298b3a12c537f7419d9cfa7fd17f78b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_16
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 388
-      y: 36
-      width: 32
-      height: 32
-    spriteID: a6be6442e4da9054d9b84191ff39e1e2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_17
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 388
-      y: 68
-      width: 32
-      height: 32
-    spriteID: 20efbf3aa349b254a85047222ca0cff8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_18
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 420
-      y: 4
-      width: 32
-      height: 32
-    spriteID: 86b4275677ab92743b71175a5de98bdb
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_19
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 420
-      y: 36
-      width: 32
-      height: 32
-    spriteID: e4fa3c22beef42042802e863f0969bf3
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_20
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 420
-      y: 68
-      width: 32
-      height: 32
-    spriteID: b59a2742f75b7e643b61d8d8fdeefbaf
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_21
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 452
-      y: 68
-      width: 32
-      height: 32
-    spriteID: f1430d86b5f8f9240b24420c8a479bd4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_22
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 452
-      y: 36
-      width: 32
-      height: 32
-    spriteID: 9062ee7e72062714b8d502b027d0b320
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: floor and roof_23
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 452
-      y: 4
-      width: 32
-      height: 32
-    spriteID: 626aa50d35a620444801aedc4384a700
+      x: 770
+      y: 316
+      width: 96
+      height: 96
+    spriteID: 2dbdbb87a3c0b48409138d8c0f69bef5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -622,20 +622,172 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: 839069487
-    name: floor and roof
+    guid: 770183983
+    name: crumbling floor
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: floor and roof
+    - name: crumbling floor_Frame_0
       frameIndex: 0
       cellRect:
-        x: 0
+        x: -96
         y: 0
-        width: 480
-        height: 224
-      spriteId: f6ee55899ddf6144e9c88d7c85deeb59
+        width: 208
+        height: 96
+      spriteId: ba5c6b4eb902f6341bf0950c86f34e03
+    - name: crumbling floor_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: -96
+        y: 0
+        width: 312
+        height: 96
+      spriteId: c1caebef0fed87d4ea498c4dcc689fa8
+    - name: crumbling floor_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: -96
+        y: 0
+        width: 312
+        height: 96
+      spriteId: c5711b7f35509b9489845753ce3b622a
+    - name: crumbling floor_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: -96
+        y: 0
+        width: 312
+        height: 96
+      spriteId: cef19c3886491684882a8f10e0eeee2f
+    - name: crumbling floor_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: -96
+        y: 0
+        width: 312
+        height: 96
+      spriteId: 918cb91c12a5f814ba69dd20cb42f04b
+    - name: crumbling floor_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: -96
+        y: 0
+        width: 317
+        height: 96
+      spriteId: 0931c19b6dc750c49b30a8dd88ef5b5c
+    - name: crumbling floor_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: -96
+        y: 0
+        width: 317
+        height: 96
+      spriteId: 8dc1f175ed662ac47ae5d1ddbced74bb
+    - name: crumbling floor_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -96
+        y: 0
+        width: 319
+        height: 96
+      spriteId: 17b4a20aa5eb0ef4bb9d7c19476fd06e
+    - name: crumbling floor_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -96
+        y: 0
+        width: 319
+        height: 96
+      spriteId: 557d2e2f5b918ab4e9c16a508c3a2c8b
+    - name: crumbling floor_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -96
+        y: 0
+        width: 319
+        height: 96
+      spriteId: 901abd5f271c99c4389c934cc6e55d47
+    - name: crumbling floor_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -96
+        y: 0
+        width: 319
+        height: 96
+      spriteId: c4b605b5b7bb9fd4aa1edb5e9f0a17e7
+    - name: crumbling floor_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -96
+        y: 0
+        width: 319
+        height: 96
+      spriteId: e9ad6c5e1d36cbd44919c0327e30a889
+    - name: crumbling floor_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: -96
+        y: 0
+        width: 319
+        height: 96
+      spriteId: 4f948c414ea255342a50100c545bfcce
+    - name: crumbling floor_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: -96
+        y: 0
+        width: 319
+        height: 96
+      spriteId: f0da2d44cd7835b4eb1212e7597639c9
+    - name: crumbling floor_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: -96
+        y: 0
+        width: 319
+        height: 96
+      spriteId: a1a6184ef2f10474f82d77bbfbfbf902
+    - name: crumbling floor_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: -96
+        y: 0
+        width: 319
+        height: 96
+      spriteId: 4401edc96e3895b48967a6ee6bb60287
+    - name: crumbling floor_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: -96
+        y: 0
+        width: 319
+        height: 96
+      spriteId: ec1bdcfd28a69cd41af67b1d05767d69
+    - name: crumbling floor_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: -96
+        y: 0
+        width: 319
+        height: 96
+      spriteId: acb59d0258a9beb44b0f589582c6ca92
+    - name: crumbling floor_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: -96
+        y: 0
+        width: 319
+        height: 96
+      spriteId: be935cd0448e3b946b3ebe63ad639199
+    - name: crumbling floor_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: -96
+        y: 0
+        width: 208
+        height: 96
+      spriteId: 941e6616ebfc4f64ba22f173ded83c87
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -665,4 +817,4 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 480, y: 224}
+  canvasSize: {x: 239, y: 111}
