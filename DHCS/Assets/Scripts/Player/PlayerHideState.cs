@@ -17,7 +17,7 @@ public class PlayerHideState : PlayerBaseState
 
     public override void UpdateState(PlayerStateManager player)
     {
-        if (Input.GetKey(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             player.changeState(player.idleState);
         }
