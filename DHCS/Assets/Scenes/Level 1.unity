@@ -8402,6 +8402,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrumblingFloor (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3553508265064239453, guid: 06af3352b4a428f4fa79582bd64bc27b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.18039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553508265064239453, guid: 06af3352b4a428f4fa79582bd64bc27b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.15294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553508265064239453, guid: 06af3352b4a428f4fa79582bd64bc27b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.14117648
+      objectReference: {fileID: 0}
     - target: {fileID: 6439215576580500292, guid: 06af3352b4a428f4fa79582bd64bc27b, type: 3}
       propertyPath: m_LocalScale.x
       value: 18
@@ -8480,7 +8492,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3a1fd45a38ca5a46843520787899ede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSounds: []
+  musicSounds:
+  - name: music
+    clip: {fileID: 8300000, guid: 5c6f6eb0823cfdc4b8d076679dc85933, type: 3}
   sfxSounds:
   - name: walk
     clip: {fileID: 8300000, guid: b3c87b1056e8274458b0dfd3e979508e, type: 3}
@@ -8514,6 +8528,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: afc22f190591d5347915fe01cce9a862, type: 3}
   - name: dive
     clip: {fileID: 8300000, guid: 7f8fad3efc264ed45b012e52343e2a79, type: 3}
+  - name: snapback
+    clip: {fileID: 8300000, guid: 497d903f73d6a4445a494c1d69017b5c, type: 3}
   loopSounds:
   - name: walk
     clip: {fileID: 8300000, guid: b3c87b1056e8274458b0dfd3e979508e, type: 3}

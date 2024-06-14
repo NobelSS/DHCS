@@ -43,6 +43,8 @@ public class PlayerGrappleState : PlayerBaseState
         player.rb.velocity += diveForce;
         Debug.Log("velocity X: " + player.rb.velocity.x);
         Debug.Log("velocity Y: " + player.rb.velocity.y);
+
+        AudioManager.Instance.PlaySFX("snapback");
     }
 
     public override void UpdateState(PlayerStateManager player)

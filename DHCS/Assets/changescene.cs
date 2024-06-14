@@ -15,6 +15,7 @@ public class changescene : MonoBehaviour
     
    if(Trigger.activeSelf)
    {
+     AudioManager.Instance.PlayMusic("music");
      SceneManager.LoadScene("Tutorial");
    }
 
