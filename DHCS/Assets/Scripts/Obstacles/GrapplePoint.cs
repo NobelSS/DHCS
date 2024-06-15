@@ -9,6 +9,7 @@ public class GrapplePoint : MonoBehaviour
     GameObject character;
     internal Animator animator;
     float distance;
+    [SerializeField] public DialogueManager dm;
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -32,7 +33,7 @@ public class GrapplePoint : MonoBehaviour
                 sr.color = Color.white;
             }
         }
-        if (Input.GetButtonDown("Fire1")) 
+        if (Input.GetButtonDown("Fire1") && !dm.inDialogue) 
         {
         if (character != null)
         {

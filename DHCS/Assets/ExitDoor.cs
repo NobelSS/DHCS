@@ -6,6 +6,7 @@ public class ExitDoor : MonoBehaviour
 {
     public Sprite opened;
     public Sprite closed;
+    public string sceneName;
     private SpriteRenderer spriteRenderer;
     void Start()
     {
@@ -18,7 +19,7 @@ public class ExitDoor : MonoBehaviour
 
             spriteRenderer.sprite = opened;
             
-            SceneManager.LoadScene("Level 1");
+            SceneManager.LoadScene(sceneName);
             
             
     
