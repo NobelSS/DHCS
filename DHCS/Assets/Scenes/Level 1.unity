@@ -8491,6 +8491,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4109179177621990262, guid: 8fc8516ed53429f4c842fe93c1104049, type: 3}
   m_PrefabInstance: {fileID: 882578273}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &916802508 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2265183375041102573, guid: 06af3352b4a428f4fa79582bd64bc27b, type: 3}
+  m_PrefabInstance: {fileID: 953693656}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &922787385
 GameObject:
   m_ObjectHideFlags: 0
@@ -8634,6 +8639,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8037809951676085918, guid: 06af3352b4a428f4fa79582bd64bc27b, type: 3}
+      propertyPath: 'crumblingFloor.Array.data[0]'
+      value: 
+      objectReference: {fileID: 916802508}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
