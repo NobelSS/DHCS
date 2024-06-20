@@ -33,22 +33,26 @@ public class GrapplePoint : MonoBehaviour
                 sr.color = Color.white;
             }
         }
-        if (Input.GetButtonDown("Fire1") && !dm.inDialogue) 
+        if(!dm.inDialogue)
         {
-        if (character != null)
-        {
-            if(distance < 5)
+            if (Input.GetButtonDown("Fire1") ) 
             {
-                
-                PlayerStateManager playerStateManager = character.GetComponent<PlayerStateManager>();
-                PlayerGrappleState pgs = playerStateManager.grappleState;
-                if (playerStateManager != null)
+                if (character != null)
                 {
-                    playerStateManager.changeState(pgs);
+                    if(distance < 5)
+                    {
+                        
+                        PlayerStateManager playerStateManager = character.GetComponent<PlayerStateManager>();
+                        PlayerGrappleState pgs = playerStateManager.grappleState;
+                        if (playerStateManager != null)
+                        {
+                            playerStateManager.changeState(pgs);
+                        }
+                    }
                 }
             }
         }
-        }
+        
     }
 
 }

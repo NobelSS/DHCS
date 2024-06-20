@@ -1,19 +1,52 @@
 fileFormatVersion: 2
-guid: 87742e7df2bf444489ba73311eb71e3a
+guid: 9fa224ffc9480ad4b9390ae12e2f332d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3491606951004172564
-    second: UI-Sheet_0
+      213: -6439803055010550622
+    second: DeathScreen1_0
   - first:
-      213: -3805555814658317902
-    second: UI-Sheet_1
+      213: 6274883070784435064
+    second: DeathScreen1_1
   - first:
-      213: -7659719219588376922
-    second: UI-Sheet_2
+      213: -570308187962135771
+    second: DeathScreen1_2
   - first:
-      213: 847938663019189637
-    second: UI-Sheet_3
+      213: -9172549420800903326
+    second: DeathScreen1_3
+  - first:
+      213: -4471367197515177899
+    second: DeathScreen1_4
+  - first:
+      213: 8697172003356828935
+    second: DeathScreen1_5
+  - first:
+      213: -5190935830272541762
+    second: DeathScreen1_6
+  - first:
+      213: -7675025151999665938
+    second: DeathScreen1_7
+  - first:
+      213: -5064252793296773695
+    second: DeathScreen1_8
+  - first:
+      213: -8449977420865772939
+    second: DeathScreen1_9
+  - first:
+      213: -6987377937498004245
+    second: DeathScreen1_10
+  - first:
+      213: -6178907001949378807
+    second: DeathScreen1_11
+  - first:
+      213: 5516396838751924488
+    second: DeathScreen1_12
+  - first:
+      213: 3317804099226523267
+    second: DeathScreen1_13
+  - first:
+      213: 7930280436137700016
+    second: DeathScreen1_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,85 +142,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI-Sheet_0
+      name: DeathScreen1_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 115
-        width: 130
-        height: 50
+        x: 0
+        y: 0
+        width: 688
+        height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cee8c163af15b8fc0800000000000000
-      internalID: -3491606951004172564
+      spriteID: 2acee92bd3931a6a0800000000000000
+      internalID: -6439803055010550622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI-Sheet_1
+      name: DeathScreen1_14
       rect:
         serializedVersion: 2
-        x: 205
-        y: 67
-        width: 54
-        height: 50
+        x: 676
+        y: 0
+        width: 12
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b16e563623ff2bc0800000000000000
-      internalID: -3805555814658317902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 60
-        width: 130
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a6d335e3f533b590800000000000000
-      internalID: -7659719219588376922
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UI-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 3
-        width: 130
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5851490b8bb74cb00800000000000000
-      internalID: 847938663019189637
+      spriteID: 0baa73d4a040e0e60800000000000000
+      internalID: 7930280436137700016
       vertices: []
       indices: 
       edges: []
@@ -195,7 +186,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9ab30f58ee697984586b419d8babddca
     internalID: 0
     vertices: []
     indices: 
@@ -203,10 +194,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      UI-Sheet_0: -3491606951004172564
-      UI-Sheet_1: -3805555814658317902
-      UI-Sheet_2: -7659719219588376922
-      UI-Sheet_3: 847938663019189637
+      DeathScreen1_0: -6439803055010550622
+      DeathScreen1_1: 6274883070784435064
+      DeathScreen1_10: -6987377937498004245
+      DeathScreen1_11: -6178907001949378807
+      DeathScreen1_12: 5516396838751924488
+      DeathScreen1_13: 3317804099226523267
+      DeathScreen1_14: 7930280436137700016
+      DeathScreen1_2: -570308187962135771
+      DeathScreen1_3: -9172549420800903326
+      DeathScreen1_4: -4471367197515177899
+      DeathScreen1_5: 8697172003356828935
+      DeathScreen1_6: -5190935830272541762
+      DeathScreen1_7: -7675025151999665938
+      DeathScreen1_8: -5064252793296773695
+      DeathScreen1_9: -8449977420865772939
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

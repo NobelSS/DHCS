@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1922965467044309717}
   - component: {fileID: 395847084459151090}
   - component: {fileID: 4103485514070068906}
-  - component: {fileID: 4517756591349873663}
   - component: {fileID: 2727616367797716077}
   m_Layer: 0
   m_Name: GrapplePoint
@@ -48,6 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8a89fcfe1f6ca540a9cb7e177febd6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dm: {fileID: 0}
 --- !u!212 &395847084459151090
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -138,18 +138,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.32558832}
   m_Radius: 0.42369032
---- !u!114 &4517756591349873663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125599128218601478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8a89fcfe1f6ca540a9cb7e177febd6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &2727616367797716077
 Animator:
   serializedVersion: 7

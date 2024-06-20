@@ -6,7 +6,7 @@ public class DialogueTrigger : MonoBehaviour
 {
     [SerializeField] private GameObject dialogueScene;
     public DialogueContent dialogue;
-    int count = 0;
+    public string dialogueID;
 
     private void Start()
     {
@@ -18,12 +18,19 @@ public class DialogueTrigger : MonoBehaviour
         //Time.timeScale = 0f;
         if (other.CompareTag("Player"))
         {
-            if (count == 0)
+            if (DialogueStateTracker.triggeredDialogues.ContainsKey(dialogueID) && DialogueStateTracker.triggeredDialogues[dialogueID])
             {
-                dialogueScene.SetActive(true);
-                TriggerDialogue();
+                // Dialogue has already been triggered, do nothing
+                return;
             }
-            count = 1;
+
+            // Trigger the dialogue
+            dialogueScene.SetActive(true);
+            TriggerDialogue();
+
+            // Mark the dialogue as triggered
+            DialogueStateTracker.triggeredDialogues[dialogueID] = true;
+            
         }
             
     }
