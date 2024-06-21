@@ -80,6 +80,15 @@ public class PlayerStateManager : MonoBehaviour
                 {
                     animator.SetBool("Death", false);
                 }
+
+                if (currentState == hideState)
+                {
+                    animator.SetBool("Hiding", true);
+                }
+                else if(currentState != hideState)
+                {
+                    animator.SetBool("Hiding", false);
+                }
             }
 
             if (Input.GetKeyDown(KeyCode.CapsLock))
@@ -105,7 +114,7 @@ public class PlayerStateManager : MonoBehaviour
     private void OnTriggerStay2D(Collider2D other)
     {
         detectedTable = other.gameObject;
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetButton("Fire2"))
         {
             string currentTag = gameObject.tag;
             if (other.CompareTag("Table"))
