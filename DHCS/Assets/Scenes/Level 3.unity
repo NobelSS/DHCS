@@ -2006,7 +2006,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1736290470874136721, guid: 49a7699a281592e4197f0c09f16a2f5f, type: 3}
       propertyPath: sceneName
-      value: EndScene
+      value: Ending
       objectReference: {fileID: 0}
     - target: {fileID: 6753652183726263726, guid: 49a7699a281592e4197f0c09f16a2f5f, type: 3}
       propertyPath: m_LocalPosition.x
