@@ -21292,106 +21292,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4109179177621990262, guid: 8fc8516ed53429f4c842fe93c1104049, type: 3}
   m_PrefabInstance: {fileID: 378321934}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &382272891
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 382272892}
-  - component: {fileID: 382272893}
-  - component: {fileID: 382272894}
-  m_Layer: 0
-  m_Name: StartDialogueTrigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &382272892
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 382272891}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.296, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1037515583}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &382272893
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 382272891}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.57425654, y: -1.5967133}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 2.148513, y: 1.1680751}
-  m_EdgeRadius: 0
---- !u!114 &382272894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 382272891}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7625a442bcc0d2348876d9488492904c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueScene: {fileID: 942819708}
-  dialogue:
-    name: Bob
-    sentences:
-    - Alright kid, it looks like you don't need my help anymore, so i'll just leave
-      you to your own devices. Godspeed kid and make sure you make it in one piece!
-    sprites:
-    - {fileID: -2683977450945269586, guid: 51a8d1fda43c97a46aa5deb1cd0e66eb, type: 3}
-  dialogueID: DIALOGUE1
 --- !u!1001 &382683084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25090,11 +24990,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &942819708 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2727359218679038493, guid: 135748f3b8f67834ca08c4af92e5373c, type: 3}
-  m_PrefabInstance: {fileID: 1541417281}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &964413519
 GameObject:
   m_ObjectHideFlags: 0
@@ -25360,38 +25255,6 @@ Transform:
   - {fileID: 1106901252}
   - {fileID: 484743352}
   - {fileID: 1130620651}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1037515582
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1037515583}
-  m_Layer: 0
-  m_Name: Trigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1037515583
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1037515582}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.84, y: -1.8573608, z: 5.8502126}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 382272892}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1041980839
@@ -27662,7 +27525,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: bebdbb5555608e54a9f1f6d90ace1af8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -50338,6 +50201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueModule
       objectReference: {fileID: 0}
+    - target: {fileID: 2727359218679038493, guid: 135748f3b8f67834ca08c4af92e5373c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5189773176888392890, guid: 135748f3b8f67834ca08c4af92e5373c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.3256463
@@ -53447,7 +53314,6 @@ SceneRoots:
   - {fileID: 2100159749}
   - {fileID: 1357506511}
   - {fileID: 520893645}
-  - {fileID: 1037515583}
   - {fileID: 221548383}
   - {fileID: 75001196}
   - {fileID: 2144365950}
