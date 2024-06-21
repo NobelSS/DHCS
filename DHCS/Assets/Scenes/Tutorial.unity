@@ -6348,8 +6348,10 @@ MonoBehaviour:
     sentences:
     - Oh and i forgot to mention, if you see any cracks on the floor, do try to walk
       slowly. i really don't want to see a young brat like you falling to your death
-    - Or if you want to look cool, you can dive to pass the crumbling floor. (In
-      order to dive, you have to sprint first and then press SPACEBAR to dive)
+    - 'Or if you want to look cool, you can dive to pass the crumbling floor.
+
+      (In
+      order to dive, you have to sprint first and then press SPACEBAR to dive)'
     sprites:
     - {fileID: 8821687428592581106, guid: 6c6d6a1a91adcc34faeb77c1e423e32f, type: 3}
   dialogueID: DIALOGUE4
@@ -11977,8 +11979,11 @@ MonoBehaviour:
     sentences:
     - Not bad kid, now see that broken lamp above you? You need to avoid standing
       still under that thing
-    - After earthquakes, you better watch out for any rubbles or objects that might
-      potentially collapse on you, try sprinting past it (Press Shift to sprint)
+    - 'After earthquakes, you better watch out for any rubbles or objects that might
+      potentially collapse on you, try sprinting past it.
+
+      (Press Shift to
+      sprint)'
     sprites:
     - {fileID: -2683977450945269586, guid: 51a8d1fda43c97a46aa5deb1cd0e66eb, type: 3}
     - {fileID: 498623792698872186, guid: d6a6bde91b437fd4e9632b783b511a0d, type: 3}
@@ -19289,8 +19294,8 @@ MonoBehaviour:
     - Hey there kid, you look like you could use help
     - Name's bob, and you seem clueless on what to do, so lemme help you get out
       of this rocky situation
-    - Now why don't you try moving forward towards the exit door? (Press A and D
-      to move around)
+    - "Now why don't you try moving forward towards the exit door? \n(Press A and
+      D to move around)"
     sprites:
     - {fileID: 8821687428592581106, guid: 6c6d6a1a91adcc34faeb77c1e423e32f, type: 3}
     - {fileID: 6788800577815752228, guid: 8dfea1dad794e8a49b3c66347eec49de, type: 3}
@@ -20628,9 +20633,9 @@ MonoBehaviour:
   dialogue:
     name: Bob
     sentences:
-    - Now earthquakes tend to have aftershocks, so you better watch out for any windows
-      that might shatter, cus those are lethal (Press LeftMouse when you're near
-      the table to take cover under it)
+    - "Now earthquakes tend to have aftershocks, so you better watch out for any
+      windows that might shatter, cus those are lethal. \n(Press LeftMouse when you're
+      near the table to take cover under it)"
     sprites:
     - {fileID: -8241037836237426294, guid: 87498679da1b87445b21d92afdf432ec, type: 3}
   dialogueID: DIALOGUE3

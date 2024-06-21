@@ -13,17 +13,18 @@ public class DialogueTrigger : MonoBehaviour
         CloseDialogue();
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         //Time.timeScale = 0f;
         if (other.CompareTag("Player"))
         {
+            
             if (DialogueStateTracker.triggeredDialogues.ContainsKey(dialogueID) && DialogueStateTracker.triggeredDialogues[dialogueID])
             {
                 // Dialogue has already been triggered, do nothing
                 return;
             }
-
+            CloseDialogue();
             // Trigger the dialogue
             dialogueScene.SetActive(true);
             TriggerDialogue();

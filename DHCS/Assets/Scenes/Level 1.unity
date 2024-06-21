@@ -7048,7 +7048,7 @@ Transform:
   m_GameObject: {fileID: 382272891}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.25, y: 0, z: 0}
+  m_LocalPosition: {x: -12.12, y: -0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7088,7 +7088,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.57425654, y: -0.6290672}
+  m_Offset: {x: -0.57425654, y: -1.5896}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7098,7 +7098,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.148513, y: 3.1033673}
+  m_Size: {x: 2.148513, y: 1.1823018}
   m_EdgeRadius: 0
 --- !u!114 &382272894
 MonoBehaviour:
@@ -7117,8 +7117,10 @@ MonoBehaviour:
     name: Bob
     sentences:
     - Alright kid, it looks like you don't need my help anymore, so i'll just leave
-      you to your own devices. Godspeed kid and make sure you make it in one piece!
+      you to your own devices.
+    - Godspeed kid and make sure you make it in one piece!
     sprites:
+    - {fileID: 8821687428592581106, guid: 6c6d6a1a91adcc34faeb77c1e423e32f, type: 3}
     - {fileID: -2683977450945269586, guid: 51a8d1fda43c97a46aa5deb1cd0e66eb, type: 3}
   dialogueID: DIALOGUE1
 --- !u!1001 &382683084
