@@ -114,7 +114,7 @@ public class PlayerStateManager : MonoBehaviour
     private void OnTriggerStay2D(Collider2D other)
     {
         detectedTable = other.gameObject;
-        if (Input.GetButton("Fire2"))
+        if (Input.GetButton("Fire1"))
         {
             string currentTag = gameObject.tag;
             if (other.CompareTag("Table"))

@@ -4495,6 +4495,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1421843276158127082, guid: 135748f3b8f67834ca08c4af92e5373c, type: 3}
+      propertyPath: theodore
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2727359218679038493, guid: 135748f3b8f67834ca08c4af92e5373c, type: 3}
       propertyPath: m_Name
       value: DialogueModule
@@ -4538,6 +4542,10 @@ PrefabInstance:
     - target: {fileID: 5189773176888392890, guid: 135748f3b8f67834ca08c4af92e5373c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8538879152060576264, guid: 135748f3b8f67834ca08c4af92e5373c, type: 3}
+      propertyPath: m_text
+      value: Drop.. cover.. hold.. swing..?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11967,10 +11975,10 @@ MonoBehaviour:
   dialogue:
     name: Bob
     sentences:
-    - Not bad kid, now see that mysterious black thing above you? That is supposed
-      to represent a falling rubble
+    - Not bad kid, now see that broken lamp above you? You need to avoid standing
+      still under that thing
     - After earthquakes, you better watch out for any rubbles or objects that might
-      potentially collapse on you, try sprinting past it (Press shift to sprint)
+      potentially collapse on you, try sprinting past it (Press Shift to sprint)
     sprites:
     - {fileID: -2683977450945269586, guid: 51a8d1fda43c97a46aa5deb1cd0e66eb, type: 3}
     - {fileID: 498623792698872186, guid: d6a6bde91b437fd4e9632b783b511a0d, type: 3}
@@ -19281,8 +19289,8 @@ MonoBehaviour:
     - Hey there kid, you look like you could use help
     - Name's bob, and you seem clueless on what to do, so lemme help you get out
       of this rocky situation
-    - Now why don't you try moving forward towards the exit door? (Press WASD to
-      move around)
+    - Now why don't you try moving forward towards the exit door? (Press A and D
+      to move around)
     sprites:
     - {fileID: 8821687428592581106, guid: 6c6d6a1a91adcc34faeb77c1e423e32f, type: 3}
     - {fileID: 6788800577815752228, guid: 8dfea1dad794e8a49b3c66347eec49de, type: 3}
@@ -20285,9 +20293,9 @@ MonoBehaviour:
     sentences:
     - Oof, that looks like a steep drop, if only there was a way to get across the
       other side
-    - Oh wait there is one! Take out your grappling belt and grapple to the water
-      sprinkler above you (The sprinkler blinks red if Theodore is within grappling
-      distance)
+    - Oh wait there is one! Take out your belt and grapple to the water sprinkler
+      above you (The sprinkler blinks red if Theodore is within grappling distance,
+      press LeftMouse to grapple)
     - Now this goes without saying, but make sure you gain full speed and dive before
       grappling across the building, otherwise you're just a fart in the wind okay
       kid?
@@ -20621,8 +20629,8 @@ MonoBehaviour:
     name: Bob
     sentences:
     - Now earthquakes tend to have aftershocks, so you better watch out for any windows
-      that might shatter, cus those are lethal (Press E when you're near the table
-      to take cover under it)
+      that might shatter, cus those are lethal (Press LeftMouse when you're near
+      the table to take cover under it)
     sprites:
     - {fileID: -8241037836237426294, guid: 87498679da1b87445b21d92afdf432ec, type: 3}
   dialogueID: DIALOGUE3

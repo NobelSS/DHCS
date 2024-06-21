@@ -17,9 +17,10 @@ public class PlayerHideState : PlayerBaseState
 
     public override void UpdateState(PlayerStateManager player)
     {
-        if (Input.GetButton("Fire3"))
+        if (Input.GetButton("Fire2"))
         {
             player.changeState(player.idleState);
+            player.animator.SetFloat("Speed", 0);
         }
     }
 }
