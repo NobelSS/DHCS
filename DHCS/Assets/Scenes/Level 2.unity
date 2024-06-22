@@ -9798,7 +9798,7 @@ MonoBehaviour:
   - name: falling
     clip: {fileID: 8300000, guid: cda5ad046acc2e44fb174116ad5b66ad, type: 3}
   - name: destroy
-    clip: {fileID: 8300000, guid: 3fc626e06d890ae4084260fa8e093ddc, type: 3}
+    clip: {fileID: 8300000, guid: e8290a88c0b76c440a650c97d40e5c1b, type: 3}
   - name: exit
     clip: {fileID: 8300000, guid: 47b50881378e2564891d0b53bae3396f, type: 3}
   - name: tired
